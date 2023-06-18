@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Epilogue,sans-serif;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header > div:first-child{
+    width: 22.89%;
+    height: 100%;
+    position: relative; 
+    background-color: rgb(247, 207, 194);
+    color: rgb(15, 15, 68);
+    padding: 0% 10% 0% 17%;
+}
+header > div:first-child h1{
+    color: inherit;
+    margin: 20px 5px 200px 0px;
+    font-size: 35px;
+}
+header > div:first-child h2{
+    color: inherit;
+    margin: 35px 5px;
+    font-size: 35px;
+}
+header > div:first-child p{
+    color: inherit;
+    margin: 40px 5px;
+    font-size: 25px;
+}
+header > div:first-child a{
+    background-color: rgb(15, 15, 68);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 20px;
+}
+header > div:first-child a:hover{
+    background-color: #000;
+}
+header > div:last-child{
+    height: 100%;
+    width: 49.9%;
+    position: relative;
+    /* float: right;  */
+    /* background: url('../images/background1.jpg') cover no-repeat rgba(255, 255, 255, 0.2); */
+    background-image: url('../images/background1.jpg');
+    background-color: rgba(255, 255, 255,.2);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header > div:last-child nav{
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+header > div:last-child nav a{
+    color: rgb(15, 15, 68);
+}
+header > div:last-child nav ul{
+    height: 100%;
+    width: 60%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(15, 15, 68);
+    /* border: 1px solid black; */
+}
+header > div:last-child nav ul li:last-child a{
+    background-color: rgb(15, 15, 68);
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+/* ---------------------*la section des features*---------------------- */
+
+
+.features{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background-color: rgb(226, 226, 121);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.features > div{
+    width: 60%;
+    height: 35%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+}
+.features > div p{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 10px;
+}
+.features > div:first-child{
+    font-size: 40px;
+}
+.features > div:last-child{
+    padding: 30px 0px;
+}
+.features > div p img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+/* -------------------------*section des percent*------------------00 */
+
+
+.percent{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    font-size: 25px;
+    border-collapse: collapse;
+    color: rgb(15, 15, 68);
+    
+}
+tr{
+    border-bottom: 1px solid black;
+}
+td{
+    padding: 50px 110px 30px 0px;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+tr td:last-child{
+    text-align: right;
+    padding: 0px 0px 0px 50px;
+}
+.m td:nth-child(2),.m td:nth-child(3),.m td:nth-child(4){
+    font-size: 40px;
+    font-family: Epilogue,sans-serif;;
+}
+
+/* ---------------------------------------unique section*------------------------- */
+
+

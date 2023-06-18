@@ -1,0 +1,469 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* font-family: Epilogue,sans-serif; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(15, 15, 68);
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header > div:first-child{
+    width: 22.89%;
+    height: 100%;
+    position: relative; 
+    background-color: rgb(247, 207, 194);
+    color: rgb(15, 15, 68);
+    padding: 0% 10% 0% 17%;
+}
+header > div:first-child h1{
+    color: inherit;
+    margin: 20px 5px 200px 0px;
+    font-size: 35px;
+}
+header > div:first-child h2{
+    color: inherit;
+    margin: 35px 5px;
+    font-size: 35px;
+}
+header > div:first-child p{
+    color: inherit;
+    margin: 40px 5px;
+    font-size: 25px;
+}
+header > div:first-child a{
+    background-color: rgb(15, 15, 68);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 20px;
+}
+header > div:first-child a:hover{
+    background-color: #000;
+}
+header > div:last-child{
+    height: 100%;
+    width: 49.9%;
+    position: relative;
+    /* float: right;  */
+    /* background: url('../images/background1.jpg') cover no-repeat rgba(255, 255, 255, 0.2); */
+    background-image: url('../images/background1.jpg');
+    background-color: rgba(255, 255, 255,.2);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header > div:last-child nav{
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+header > div:last-child nav a{
+    color: rgb(15, 15, 68);
+}
+header > div:last-child nav ul{
+    height: 100%;
+    width: 60%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(15, 15, 68);
+    /* border: 1px solid black; */
+}
+header > div:last-child nav ul li:last-child a{
+    background-color: rgb(15, 15, 68);
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+/* ---------------------*la section des features*---------------------- */
+
+
+.features{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background-color: rgb(226, 226, 121);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.features > div{
+    width: 60%;
+    height: 35%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+}
+.features > div p{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 10px;
+}
+.features > div:first-child{
+    font-size: 40px;
+}
+.features > div:last-child{
+    padding: 30px 0px;
+}
+.features > div p img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+/* -------------------------*section des percent*------------------00 */
+
+
+.percent{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    font-size: 25px;
+    border-collapse: collapse;
+    color: rgb(15, 15, 68);
+    
+}
+tr{
+    border-bottom: 1px solid black;
+}
+td{
+    padding: 50px 110px 30px 0px;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+tr td:last-child{
+    text-align: right;
+    padding: 0px 0px 0px 50px;
+}
+.m td:nth-child(2),.m td:nth-child(3),.m td:nth-child(4){
+    font-size: 40px;
+    font-family: Epilogue,sans-serif;;
+}
+
+/* ---------------------------------------unique section*------------------------- */
+
+
+.unique{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    background-color: rgb(247, 207, 194);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid red; */
+    /* margin-bottom: 150px; */
+    font-size: 20px;
+}
+.unique > div{
+    /* border: 1px solid blue; */
+    width: 30%;
+    height: 69%;
+    margin: 15px;
+}
+.unique > div img{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.unique div:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    top: -12mm;
+    
+}
+.unique div:last-child a{
+    background-color: rgb(236, 28, 115);
+    padding:15px 25px;
+    color: white;
+    border-radius: 30px;
+}
+.unique div:last-child a:hover{
+    background-color: red;
+}
+.unique div:last-child p:first-child{
+    font-size: 35px;
+}
+/* ****************************************help**************************************** */
+
+.help{
+    width: 100%;
+    min-height: 30vh;
+    max-height: 80vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.help article{
+    width: 30%;
+    height: 80%;
+    position: relative;
+    margin: 2%;
+
+}
+.help article div p:first-child{
+    display: inline-block;
+    font-size: 25px;
+}
+.help article div button{
+    width: 25px;
+    height: 25px;
+}
+.help article div p:last-child {
+    display: none;
+}
+
+.block{
+    display: block;
+}
+
+/* -----------------------------------------*section des crew*------------------------- */
+
+
+.crew{
+    width: 100%;
+    height: 200vh;
+    position: relative;
+    background-color: rgba(253, 191, 150, 0.897);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.crew > div{
+    width: 60%;
+    height: 10%;
+    position: relative;
+    /* background-color: inherit; */
+}
+.crew > div > p:first-child{
+    font-size: 35px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.crew > div > p:last-child{
+    font-size: 19px;
+}
+.crew article{
+    width: 60%;
+    height: 85%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.crew article figcaption{
+    width: 47%;
+    height: 30%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 15px;
+    font-size: 19px;
+}
+.crew article figcaption img{
+    width: 98%;
+    height: 70%;
+    position: relative;
+}
+.crew article figcaption span:nth-child(2){
+    font-size: 25px;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+.para-text{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.para-text div{
+    width: 55%;
+    height: 70%;
+    position: relative;
+    /* border: 1px solid blue; */
+}
+.para-text > div span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.para-text > div img{
+    position: relative;
+    top: 7px;
+}
+.client{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    background-color: rgb(12, 12, 65);
+    color: white;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.client img{
+    width: 15vh;
+    height: 12vh;
+    margin: 10px;
+}
+
+
+/* ******************************---------------------------------************************ */
+
+.need{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.need div{
+    width: 25%;
+    height: 80%;
+    position: relative;
+    margin: 15mm;
+    /* border: 1px solid black; */
+}
+.need div p:first-child{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+/* ************************************************************************************************** */
+
+.question{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(253, 253, 151);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question div:first-child{
+    font-size: 36px;
+}
+.question input[type = 'email']{
+    width: 50%;
+    height: 30px;
+    border: none;
+    background-color: inherit;
+    margin: 60px;
+    box-shadow: none;
+    font-size: 25px;
+    border-bottom: 1px solid #767676;
+    /* outline: none; */
+}
+.question button{
+    font-size: 22px;
+    background-color: inherit;
+    padding: 15px 50px;
+    border-radius: 23px;
+    box-shadow: none;
+    border: 2px solid black;
+    transition: .5s;
+    font-weight: bold;
+}
+.question button:hover{
+    background-color: rgb(18, 18, 88);
+    color: white;
+}
+
+.google-map{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+.google-map iframe{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* *************************************************the footer************************************** */
+
+footer{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background-color: rgb(14, 14, 77);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer > div, footer > h2{
+    width: 10%;
+    height: 60%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+footer > div a{
+    color: rgb(211, 207, 207);
+    line-height: 2;
+    font-size: 17px;
+}
+footer > div a:hover{
+    text-decoration: underline;
+    color: #868585;
+}
+footer > div >h2{
+    position: relative;
+    top: -17px;
+    margin-bottom: 150px;
+}
+footer > div:nth-child(2),footer > div:nth-child(4){
+    border-right: 1px solid white;
+    margin-right: 30px;
+}
+footer > div:last-child > span:nth-child(3),footer > div:last-child > span:nth-child(5){
+    margin-top: 25px;
+    font-size: 20px;
+}
